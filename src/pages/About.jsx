@@ -269,7 +269,7 @@ export default function About() {
                     data-aos="fade-right"
                   >
                     <img
-                      src="2.jpg"
+                      src="33.jpg"
                       alt="my image"
                       className="w-9/12 object-contain"
                     />
@@ -285,7 +285,7 @@ export default function About() {
     className="w-full items-start justify-start"
   >
     <img
-      src="rudhir.jpg"
+      src="2.jpg"
       alt="my image"
       className="w-9/12 object-contain"
     />

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import ScrollToTop from './component/ScrollToTop';
 import Navbar from './component/Navbar';

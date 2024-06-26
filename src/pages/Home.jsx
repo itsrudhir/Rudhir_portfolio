@@ -57,7 +57,7 @@ export default function Home() {
           <br />
 
           <div
-            className=" my-6  w-1/2 mx-auto  bg-cyan-950 p-8 rounded-3xl  hover:shadow-[0px_0px_80px_0.5px] hover:shadow-red-400 "
+            className=" my-6  w-1/2 mx-auto  bg-cyan-950 p-8 rounded-3xl  hover:shadow-[0px_0px_80px_0.5px] hover:shadow-purple-800 "
             data-aos="fade-up"
             id="cv"
           >
@@ -65,9 +65,9 @@ export default function Home() {
 <NavLink
             to="/about"
             activeClassName="text-white"
-            className="text-gray-300 hover:text-white px-3 py-2"
+            className="text-gray-300 hover:text-white "
           >
-            About
+            Want to Hire Me?
           </NavLink>
 
             {/* <a href="https://drive.google.com/file/d/1uAov1OnvB8woE26oa8IUz0ZQS_prP59s/view?usp=sharing">

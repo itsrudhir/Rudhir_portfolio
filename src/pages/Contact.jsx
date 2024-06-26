@@ -14,7 +14,7 @@ export default function Contact() {
     <>
       <motion.div
         id="outershell"
-        className="bg-gray-800 p-9"
+        className="bg-gray-800 pt-9"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -36,7 +36,9 @@ export default function Contact() {
 
             <div className="h-44"></div>
 
-            <div className="flex justify-evenly">
+            <div className="flex justify-evenly w-full">
+
+
               <div className="flex flex-col items-center justify-center">
                 <a
                   href="https://wa.me/yourwhatsappnumber"
@@ -52,6 +54,8 @@ export default function Contact() {
                 </a>
                 <h2>Whatsapp / ワッツアップ</h2>
               </div>
+
+
 
               <div className="flex flex-col items-center justify-center">
                 <a
@@ -69,6 +73,9 @@ export default function Contact() {
                 <h2>LinkedIn / リンクトイン</h2>
               </div>
 
+
+
+
               <div className="flex flex-col items-center justify-center">
                 <a
                   href="mailto:youremail@example.com"
@@ -82,6 +89,9 @@ export default function Contact() {
                 </a>
                 <h2>Email / イーメール</h2>
               </div>
+
+
+
             </div>
 
             <div className="h-72"></div>
@@ -98,6 +108,10 @@ export default function Contact() {
 
             <div className="h-96"></div>
 
+            <br />
+            <div className="h-72"></div>
+          </div>
+        </div>
             <div className="flex justify-center">
               <img
                 src="jp.png"
@@ -105,10 +119,6 @@ export default function Contact() {
                 className="object-cover h-80 w-full"
               />
             </div>
-            <br />
-            <div className="h-72"></div>
-          </div>
-        </div>
       </motion.div>
     </>
   );

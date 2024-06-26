@@ -68,7 +68,9 @@ export default function Home() {
             <br />
           </div>
         </div>
-
+<div data-aos="zoom-in-down" className="text-6xl font-bold">
+  <h1>I am Rudhir Chandra Mahalik</h1>
+</div>
         <div className="flex justify-center my-8">
           <div
             className="w-1/2 mx-auto bg-cyan-950 p-8 rounded-3xl shadow-lg hover:shadow-xl"

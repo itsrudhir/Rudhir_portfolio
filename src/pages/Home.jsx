@@ -61,14 +61,13 @@ export default function Home() {
             data-aos="fade-up"
             id="cv"
           >
-
-<NavLink
-            to="/about"
-            activeClassName="text-white"
-            className="text-gray-300 hover:text-white "
-          >
-            Want to Hire Me?
-          </NavLink>
+            <NavLink
+              to="/about"
+              activeClassName="text-white"
+              className="text-gray-300 hover:text-white "
+            >
+              Want to Hire Me?
+            </NavLink>
 
             {/* <a href="https://drive.google.com/file/d/1uAov1OnvB8woE26oa8IUz0ZQS_prP59s/view?usp=sharing">
               <div className="flex justify-evenly ">
@@ -80,8 +79,6 @@ export default function Home() {
                 </div>
               </div>
             </a> */}
-
-
           </div>
 
           <div className="h-80"></div>
@@ -92,22 +89,33 @@ export default function Home() {
             </div>
             <br />
             <div data-aos="fade-up">
-              <h1>- AI researchist</h1>
+              <h1>- AI researchist at NIT</h1>
+              <br />
+            </div>
+            <div data-aos="fade-up">
+              <h1>- Summer intern @IISC</h1>
+              <br />
             </div>
             <div data-aos="fade-up">
               <h1>- Frontend Dev</h1>
+              <br />
             </div>
             <div data-aos="fade-up">
               <h1>- Intraday trader</h1>
+              <br />
             </div>
             <div data-aos="fade-up">
-              <h1>- & an NITian</h1>
+              <h1>- President @B'n'B</h1>
+              <br />
+            </div>
+            <div data-aos="fade-up">
+              <h1>- & a proud NITian</h1>
+              <br />
             </div>
           </div>
         </div>
 
         <div className="h-36"></div>
-
 
         <div className="h-56"></div>
 

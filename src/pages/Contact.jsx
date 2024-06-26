@@ -49,6 +49,7 @@ export default function Contact() {
                   <img
                     src="https://img.icons8.com/color/96/000000/whatsapp.png"
                     alt="WhatsApp"
+                    href='https://api.whatsapp.com/send?phone=916295752571'
                     className="w-36 h-36"
                   />
                 </a>
@@ -67,6 +68,7 @@ export default function Contact() {
                   <img
                     src="https://img.icons8.com/color/96/000000/linkedin.png"
                     alt="LinkedIn"
+                    href='https://www.linkedin.com/in/rudhir-mahalik/'
                     className="w-36 h-36"
                   />
                 </a>
@@ -84,6 +86,7 @@ export default function Contact() {
                   <img
                     src="https://icons.iconarchive.com/icons/dtafalonso/win-10x/256/Email-icon.png"
                     alt="Email"
+                    href='mailto:Kcmahalik1@gmail.com'
                     className="w-36 h-36"
                   />
                 </a>

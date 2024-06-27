@@ -39,7 +39,7 @@ export default function About() {
             className="bg-cyan-950 p-6 rounded-3xl shadow-lg"
             data-aos="fade-up"
           >
-            <div className="mb-5" id="link heading">
+            <div className="mb-5 pb-6" id="link heading">
               <h2 className="text-4xl text-white">
                 Find relevant links to my Profiles 🌐
               </h2>
@@ -53,8 +53,13 @@ export default function About() {
                       href="https://www.linkedin.com/in/rudhir-mahalik/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="block transition transform hover:scale-110"
                     >
-                      <FaLinkedin className="text-6xl text-white hover:text-gray-300 transition duration-300" />
+                      <img
+                        src="https://img.icons8.com/color/96/000000/linkedin.png"
+                        alt="Linkedin"
+                        className="w-24 h-24 mx-auto"
+                      />
                     </a>
                     <h3 className="text-2xl text-white">Linkedin</h3>
                   </div>
@@ -66,8 +71,13 @@ export default function About() {
                       href="https://github.com/itsrudhir"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="block transition transform hover:scale-110"
                     >
-                      <FaGithub className="text-6xl text-white hover:text-gray-300 transition duration-300" />
+                      <img
+                        src="https://assets-global.website-files.com/61d1b6e84887f53fef1dcdf2/631b45e07d98cfb364e5951f_github-white.png"
+                        alt="Github"
+                        className="w-24 h-24 mx-auto"
+                      />
                     </a>
                     <h3 className="text-2xl text-white">Github</h3>
                   </div>
@@ -79,8 +89,13 @@ export default function About() {
                       href="https://www.kaggle.com/rudhirmahalik"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="block transition transform hover:scale-110"
                     >
-                      <FaKaggle className="text-6xl text-white hover:text-gray-300 transition duration-300" />
+                      <img
+                        src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-color-tal-revivo.png"
+                        alt="Kaggle"
+                        className="w-24 h-24 mx-auto"
+                      />
                     </a>
                     <h3 className="text-2xl text-white">Kaggle</h3>
                   </div>
@@ -92,8 +107,13 @@ export default function About() {
                       href="mailto:Kcmahalik1@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="block transition transform hover:scale-110"
                     >
-                      <MdEmail className="text-6xl text-white hover:text-gray-300 transition duration-300" />
+                      <img
+                        src="https://icons.iconarchive.com/icons/dtafalonso/win-10x/256/Email-icon.png"
+                        alt="Email"
+                        className="w-24 h-24 mx-auto"
+                      />
                     </a>
                     <h3 className="text-2xl text-white">E-Mail</h3>
                   </div>
@@ -105,8 +125,13 @@ export default function About() {
                       href="https://api.whatsapp.com/send?phone=916295752571"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="block transition transform hover:scale-110"
                     >
-                      <FaWhatsapp className="text-6xl text-white hover:text-gray-300 transition duration-300" />
+                      <img
+                        src="https://img.icons8.com/color/96/000000/whatsapp.png"
+                        alt="Whatsapp"
+                        className="w-24 h-24 mx-auto"
+                      />
                     </a>
                     <h3 className="text-2xl text-white">Whatsapp</h3>
                   </div>
@@ -118,8 +143,13 @@ export default function About() {
                       href="https://www.facebook.com/share/Q3rW3Sve7e9nNwXW/?mibextid=qi2Omg"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="block transition transform hover:scale-110"
                     >
-                      <FaFacebook className="text-6xl text-white hover:text-gray-300 transition duration-300" />
+                      <img
+                        src="https://img.icons8.com/color/96/000000/facebook.png"
+                        alt="Facebook"
+                        className="w-24 h-24 mx-auto"
+                      />
                     </a>
                     <h3 className="text-2xl text-white">Facebook</h3>
                   </div>
@@ -135,7 +165,7 @@ export default function About() {
           <br />
 
           <div
-            className="my-6 w-1/2 mx-auto bg-cyan-950 p-8 rounded-3xl shadow-lg"
+            className="my-6 w-1/2 mx-auto bg-cyan-950 p-8 rounded-3xl shadow-lg transition transform hover:scale-105 hover:shadow-2xl"
             data-aos="fade-up"
             id="cv"
           >
@@ -144,17 +174,19 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="flex justify-evenly">
-                <div className="">
+              <div className="flex justify-evenly items-center">
+                <div>
                   <img
                     src="cv.png"
                     alt="CV"
-                    className="object-contain"
+                    className="object-contain transition transform hover:scale-110"
                     style={{ maxHeight: "100px" }}
                   />
                 </div>
-                <div className="flex items-center justify-center">
-                  <h2 className="text-2xl">1 Page CV</h2>
+                <div className="flex items-center justify-center ml-4">
+                  <h2 className="text-2xl text-white transition transform hover:text-cyan-300">
+                    1 Page CV
+                  </h2>
                 </div>
               </div>
             </a>
@@ -279,74 +311,76 @@ export default function About() {
                 <br />
                 <br />
 
-<div className="flex justify-around">
-  <div
-    data-aos="fade-left"
-    className="w-full items-start justify-start"
-  >
-    <img
-      src="2.jpg"
-      alt="my image"
-      className="w-9/12 object-contain"
-    />
-  </div>
-  <div>
-    <div>
-      <div className="text-3xl pb-5">
-        <h1>⭐ High Schooling - ODM Public School, Bhubaneshwar</h1>
-      </div>
+                <div className="flex justify-around">
+                  <div
+                    data-aos="fade-left"
+                    className="w-full items-start justify-start"
+                  >
+                    <img
+                      src="2.jpg"
+                      alt="my image"
+                      className="w-9/12 object-contain"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <div className="text-3xl pb-5">
+                        <h1>
+                          ⭐ High Schooling - ODM Public School, Bhubaneshwar
+                        </h1>
+                      </div>
 
-      <div data-aos="fade-right">
-        <h2 className="text-2xl text-white">
-          My journey into academia continued at ODM Public
-          School in Bhubaneshwar, where I completed my higher
-          secondary education. This phase of my life was marked
-          by discovery and growth, as I explored various
-          academic disciplines and honed my interests.
-        </h2>
-      </div>
-    </div>
+                      <div data-aos="fade-right">
+                        <h2 className="text-2xl text-white">
+                          My journey into academia continued at ODM Public
+                          School in Bhubaneshwar, where I completed my higher
+                          secondary education. This phase of my life was marked
+                          by discovery and growth, as I explored various
+                          academic disciplines and honed my interests.
+                        </h2>
+                      </div>
+                    </div>
 
-    <br />
-    <br />
+                    <br />
+                    <br />
 
-    <div>
-      <div className="text-3xl pb-5">
-        <h1>⭐ Early Years - Kendriya Vidyalaya Kalaikunda</h1>
-      </div>
-      <div data-aos="fade-right">
-        <h2 className="text-2xl text-white">
-          My educational journey began at Kendriya Vidyalaya
-          Kalaikunda, an institution nestled amidst the serene
-          surroundings of an Air Force base. Here, I was exposed
-          to a diverse cultural tapestry and developed a thirst
-          for knowledge that continues to drive me forward.
-        </h2>
-        <br />
-      </div>
+                    <div>
+                      <div className="text-3xl pb-5">
+                        <h1>⭐ Early Years - Kendriya Vidyalaya Kalaikunda</h1>
+                      </div>
+                      <div data-aos="fade-right">
+                        <h2 className="text-2xl text-white">
+                          My educational journey began at Kendriya Vidyalaya
+                          Kalaikunda, an institution nestled amidst the serene
+                          surroundings of an Air Force base. Here, I was exposed
+                          to a diverse cultural tapestry and developed a thirst
+                          for knowledge that continues to drive me forward.
+                        </h2>
+                        <br />
+                      </div>
 
-      <div data-aos="fade-right">
-        <h2 className="text-2xl text-white">
-          Kendriya Vidyalaya provided not just an academic
-          foundation, but also a nurturing environment that
-          fostered holistic development. From engaging in
-          extracurricular activities to building lasting
-          friendships, my early schooling years laid the
-          groundwork for my future endeavors.
-        </h2>
-        <br />
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<br />
-</div>
-</div>
+                      <div data-aos="fade-right">
+                        <h2 className="text-2xl text-white">
+                          Kendriya Vidyalaya provided not just an academic
+                          foundation, but also a nurturing environment that
+                          fostered holistic development. From engaging in
+                          extracurricular activities to building lasting
+                          friendships, my early schooling years laid the
+                          groundwork for my future endeavors.
+                        </h2>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+          </div>
+        </div>
 
-<div className="h-72"></div>
-</motion.div>
-</>
-);
+        <div className="h-72"></div>
+      </motion.div>
+    </>
+  );
 }

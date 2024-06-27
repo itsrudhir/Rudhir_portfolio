@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useState  } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../component/Navbar";
 import AOS from "aos";
@@ -12,6 +12,17 @@ export default function Home() {
       duration: 800,
     });
   }, []);
+
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
 
   return (
     <>
@@ -71,21 +82,50 @@ export default function Home() {
 <div data-aos="zoom-in-down" className="text-6xl font-bold">
   <h1>I am Rudhir Chandra Mahalik</h1>
 </div>
-        <div className="flex justify-center my-8">
-          <div
-            className="w-1/2 mx-auto bg-cyan-950 p-8 rounded-3xl shadow-lg hover:shadow-xl"
-            data-aos="fade-up"
-            id="cv"
-          >
-            <NavLink
-              to="/about"
-              activeClassName="text-white"
-              className="text-gray-300 hover:text-white text-3xl"
-            >
-              Want to Hire Me?
-            </NavLink>
-          </div>
-        </div>
+
+
+
+
+
+
+
+
+
+<div className="flex justify-center my-8">
+      <div
+        className="relative w-full max-w-md md:w-3/4 lg:w-1/2 mx-auto overflow-hidden"
+        data-aos="fade-up"
+        id="cv"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div
+          className={`absolute inset-0 bg-gradient-to-br from-cyan-900 via-cyan-950 to-cyan-900 opacity-0 hover:opacity-100 transition-opacity duration-500 ${hovered ? 'pointer-events-auto' : 'pointer-events-none'}`}
+        ></div>
+        <NavLink
+          to="/about"
+          activeClassName="text-white"
+          className="relative z-10 flex items-center justify-center w-full h-full bg-cyan-950 p-6 md:p-8 rounded-3xl shadow-lg overflow-hidden"
+          style={{ minHeight: '120px' }}
+        >
+          <span className="text-gray-300 text-xl md:text-2xl lg:text-3xl transition-colors duration-300">
+            {hovered ? "Let's check my CV" : "Want to Hire Me?"}
+          </span>
+        </NavLink>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div className="flex justify-center my-8">
           <div className="w-72 h-72 relative">

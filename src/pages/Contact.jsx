@@ -100,6 +100,11 @@ export default function Contact() {
             <div className="h-72"></div>
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
 
             <div className="pt-3 flex flex-col items-center justify-center">
               <img
@@ -109,17 +114,17 @@ export default function Contact() {
               />
             </div>
 
-            <div className="h-96"></div>
+            <div className="h-36"></div>
 
             <br />
-            <div className="h-72"></div>
+            <div className="h-36"></div>
           </div>
         </div>
             <div className="flex justify-center">
               <img
                 src="jp.png"
                 alt="Japanese Background"
-                className="object-cover h-80 w-full"
+                className="object-cover h-72 w-full"
               />
             </div>
       </motion.div>

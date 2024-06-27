@@ -92,21 +92,15 @@ export default function Home() {
 
 
 <div className="flex justify-center my-8">
-      <div
-        className="relative w-full max-w-md md:w-3/4 lg:w-1/2 mx-auto overflow-hidden"
-        data-aos="fade-up"
-        id="cv"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div
-          className={`absolute inset-0 bg-gradient-to-br from-cyan-900 via-cyan-950 to-cyan-900 opacity-0 hover:opacity-100 transition-opacity duration-500 ${hovered ? 'pointer-events-auto' : 'pointer-events-none'}`}
-        ></div>
+      <div className="relative w-full max-w-md md:w-3/4 lg:w-1/2 mx-auto overflow-hidden" data-aos="fade-up" id="cv">
+        <div className={`absolute inset-0 bg-gradient-to-br from-cyan-900 via-cyan-950 to-cyan-900 opacity-0 hover:opacity-100 transition-opacity duration-500 ${hovered ? 'pointer-events-auto' : 'pointer-events-none'}`}></div>
         <NavLink
-          to="/about"
+          to="/about#cv" // Navigate to '/about' and scroll to element with id 'cv'
           activeClassName="text-white"
           className="relative z-10 flex items-center justify-center w-full h-full bg-cyan-950 p-6 md:p-8 rounded-3xl shadow-lg overflow-hidden"
           style={{ minHeight: '120px' }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           <span className="text-gray-300 text-xl md:text-2xl lg:text-3xl transition-colors duration-300">
             {hovered ? "Let's check my CV" : "Want to Hire Me?"}

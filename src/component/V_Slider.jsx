@@ -217,54 +217,51 @@ const VSlider = () => {
           </div>
         </a>
 
-
-
         <a href="https://slate-labs.com/">
-        <div
-          id="section5"
-          className="h-64 bg-gray-700 mb-4 flex items-center justify-center rounded-lg"
-        >
-          <div className="text-white font-bold w-1/6 text-3xl pr-3">
-            <h2>
-              Jan <br /> 2024
-            </h2>
-          </div>
-
-          <div className="text-white font-bold w-5/6 p-5 text-justify ">
-            <h2>
-              <b className="text-4xl">Website for "SlateLabs" :</b> Developed
-              and deployed the landing page for SLATELABS on AWS. Enhanced the
-              landing page by adding functionalities such as a login dashboard
-              and database integration in response to company requests,
-              resulting in a 24 % increase in company reach
-            </h2>
-          </div>
-        </div>
-        </a>
-        
           <div
-            id="section6"
+            id="section5"
             className="h-64 bg-gray-700 mb-4 flex items-center justify-center rounded-lg"
           >
             <div className="text-white font-bold w-1/6 text-3xl pr-3">
               <h2>
-                Dec <br /> 2023
+                Jan <br /> 2024
               </h2>
             </div>
 
             <div className="text-white font-bold w-5/6 p-5 text-justify ">
               <h2>
-                <b className="text-4xl">
-                  Assigned as Tech Lead at "SlateLabs" :{" "}
-                </b>
-                As an Ed Tech startup's Technical Lead, I am assigned to manage
-                website development, technical requirements, and SEO
-                implementation to enhance user experience and performance and
-                more on company demand.
+                <b className="text-4xl">Website for "SlateLabs" :</b> Developed
+                and deployed the landing page for SLATELABS on AWS. Enhanced the
+                landing page by adding functionalities such as a login dashboard
+                and database integration in response to company requests,
+                resulting in a 24 % increase in company reach
               </h2>
             </div>
           </div>
-       
+        </a>
+
+        <div
+          id="section6"
+          className="h-64 bg-gray-700 mb-4 flex items-center justify-center rounded-lg"
+        >
+          <div className="text-white font-bold w-1/6 text-3xl pr-3">
+            <h2>
+              Dec <br /> 2023
+            </h2>
+          </div>
+
+          <div className="text-white font-bold w-5/6 p-5 text-justify ">
+            <h2>
+              <b className="text-4xl">
+                Assigned as Tech Lead at "SlateLabs" :{" "}
+              </b>
+              As an Ed Tech startup's Technical Lead, I am assigned to manage
+              website development, technical requirements, and SEO
+              implementation to enhance user experience and performance and more
+              on company demand.
+            </h2>
+          </div>
+        </div>
 
         <a href="https://github.com/itsrudhir/Real-Time-emotion-detection-.git">
           <div
@@ -303,7 +300,8 @@ const VSlider = () => {
           <div className="text-white font-bold w-5/6 p-5 text-justify ">
             <h2>
               <b className="text-4xl">
-                Assigned as the President of the official trading club Bears 'N' Bulls NITR
+                Assigned as the President of the official trading club Bears 'N'
+                Bulls NITR
               </b>
             </h2>
           </div>

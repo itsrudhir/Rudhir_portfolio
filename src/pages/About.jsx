@@ -167,7 +167,7 @@ export default function About() {
           <div
             className="my-6 w-1/2 mx-auto bg-cyan-950 p-8 rounded-3xl shadow-lg transition transform hover:scale-105 hover:shadow-2xl"
             data-aos="fade-up"
-            id="cv"
+            id="CV_div"
           >
             <a
               href="https://drive.google.com/file/d/1uAov1OnvB8woE26oa8IUz0ZQS_prP59s/view?usp=sharing"

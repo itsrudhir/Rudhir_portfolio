@@ -41,7 +41,7 @@ export default function Contact() {
 
               <div className="flex flex-col items-center justify-center">
                 <a
-                  href="https://wa.me/yourwhatsappnumber"
+                  href="https://api.whatsapp.com/send?phone=916295752571"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transform hover:scale-110 transition-transform"
@@ -60,7 +60,7 @@ export default function Contact() {
 
               <div className="flex flex-col items-center justify-center">
                 <a
-                  href="https://linkedin.com/in/yourlinkedinprofile"
+                  href="https://www.linkedin.com/in/rudhir-mahalik/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transform hover:scale-110 transition-transform"

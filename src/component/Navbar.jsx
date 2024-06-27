@@ -93,10 +93,10 @@ const Navbar = () => {
             className="block text-gray-300 hover:text-white px-4 py-2"
             onClick={toggleMobileMenu}
           >
-            About
+            work
           </NavLink>
           <NavLink
-            to="/services"
+            to="/work"
             activeClassName="text-white"
             className="block text-gray-300 hover:text-white px-4 py-2"
             onClick={toggleMobileMenu}

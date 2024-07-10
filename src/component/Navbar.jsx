@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="text-white text-lg font-semibold">
-          Your Logo
+          Rudhir Mahalik
         </NavLink>
 
         {/* Navbar Links */}

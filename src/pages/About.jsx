@@ -170,7 +170,7 @@ export default function About() {
             id="CV_div"
           >
             <a
-              href="https://drive.google.com/file/d/1S-OEWJLpUbRY-IoBTzsit2Vc4J-_xS5L/view?usp=sharing"
+              href="https://drive.google.com/file/d/1RLKsD6FWIc0BSQLG3074rxfm_kRhBRg_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

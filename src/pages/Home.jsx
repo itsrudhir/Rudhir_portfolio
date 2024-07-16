@@ -97,7 +97,8 @@ export default function Home() {
               }`}
             ></div>
             <NavLink
-              to="/about#CV_div" // Navigate to '/about' and scroll to element with id 'cv'
+              // to="/about#CV_div" // Navigate to '/about' and scroll to element with id 'cv'
+              to="https://drive.google.com/file/d/1RLKsD6FWIc0BSQLG3074rxfm_kRhBRg_/view?usp=sharing" // Navigate to '/about' and scroll to element with id 'cv'
               activeClassName="text-white"
               className="relative z-10 flex items-center justify-center w-full h-full bg-cyan-950 p-6 md:p-8 rounded-3xl shadow-lg overflow-hidden"
               style={{ minHeight: "120px" }}
